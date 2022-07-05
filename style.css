@@ -1,0 +1,120 @@
+body{
+    
+    margin: 0;
+    font-family: sans-serif;
+}
+.fitness-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+
+.text-area{
+    width: 50%;
+    margin: 20px 20px;
+    padding-left:5% ;
+
+}
+.text-area h1{
+font-size: 40px;
+}
+.text-area span{
+    color: crimson;
+}
+p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.btn{
+    margin: 5px 12px;
+    padding: 15px 30px;
+    background: crimson;
+    color:#000;
+    box-shadow: 10px 9px 47px #ab6262;
+    background-image: linear-gradient(crimson,rgb(230, 117, 135));
+    margin-top: 20px;
+    border-radius: 30px;
+    transition: 5s background ,color;
+}
+.btn:hover{
+color: crimson;
+background: transparent;
+border: 2px solid crimson;
+cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.img-area img{
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+/* ///2nd section// */
+.About-Me{
+    /* width: 100%;
+    height: 100vh; */
+    background-image: url(images/redf.jpg);
+    background-repeat: no repeat;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.my-img img{
+    width: 50%;
+    /* width: 80%; */
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.About-text{
+    width: 50%;
+}
+/* 3rd section// */
+
+.recipie-head h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.recipie-head p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.recipe-text{
+    width: 400px;
+    height: 501px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 11px 15px;
+    box-shadow: 10px 10px 30px gray;
+}
+.recipe-text img{
+    width: 380px;
+    height: 300px;
+    padding: 20px 13px;
+    /* padding-bottom: 5px; */
+    /* border-radius: 70px; */
+    
+}
+h3{
+    padding-left: 10%;
+}
+p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.recipe{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
